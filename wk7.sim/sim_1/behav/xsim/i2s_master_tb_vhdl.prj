@@ -1,0 +1,8 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../../../hdl/params.vhd" \
+"../../../../../../hdl/i2s_master.vhd" \
+"../../../../wk7.srcs/sim_1/new/test.vhd" \
+
+# Do not sort compile order
+nosort
