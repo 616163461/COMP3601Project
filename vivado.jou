@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Vivado v2021.1 (64-bit)
+# SW Build 3247384 on Thu Jun 10 19:36:33 MDT 2021
+# IP Build 3246043 on Fri Jun 11 00:30:35 MDT 2021
+# Start of session at: Sat Nov  4 19:24:48 2023
+# Process ID: 38536
+# Current directory: C:/Users/annie/AppData/Roaming/Xilinx/Vivado
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent10052
+# Log file: C:/Users/annie/AppData/Roaming/Xilinx/Vivado/vivado.log
+# Journal file: C:/Users/annie/AppData/Roaming/Xilinx/Vivado\vivado.jou
+#-----------------------------------------------------------sstart_gui
+open_project D:/COMP3601/wk7/wk7/wk7.xpr
+update_compile_order -fileset sources_1
+archive_project {D:/COMP3601/Group_13 wk7/wk8 M3.xpr.zip} -temp_dir C:/Users/annie/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-38536-annnnie -force -include_local_ip_cache -include_config_settings

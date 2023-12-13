@@ -1,0 +1,71 @@
+#-----------------------------------------------------------
+# Vivado v2021.1 (64-bit)
+# SW Build 3247384 on Thu Jun 10 19:36:33 MDT 2021
+# IP Build 3246043 on Fri Jun 11 00:30:35 MDT 2021
+# Start of session at: Sat Nov  4 19:24:48 2023
+# Process ID: 38536
+# Current directory: C:/Users/annie/AppData/Roaming/Xilinx/Vivado
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent10052
+# Log file: C:/Users/annie/AppData/Roaming/Xilinx/Vivado/vivado.log
+# Journal file: C:/Users/annie/AppData/Roaming/Xilinx/Vivado\vivado.jou
+#-----------------------------------------------------------sstart_guiexit
+INFO: [Common 17-206] Exiting Vivado at Sat Nov  4 19:25:25 2023...
+anning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/app/Vivado/2021.1/data/ip'.
+open_project: Time (s): cpu = 00:00:33 ; elapsed = 00:00:22 . Memory (MB): peak = 1282.852 ; gain = 0.000
+update_compile_order -fileset sources_1
+archive_project {D:/COMP3601/Group_13 wk7/wk8 M3.xpr.zip} -temp_dir C:/Users/annie/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-38536-annnnie -force -include_local_ip_cache -include_config_settings
+INFO: [Coretcl 2-137] starting archive...
+INFO: [Coretcl 2-1499] Saving project copy to temporary location 'C:/Users/annie/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-38536-annnnie' for archiving project
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/app/Vivado/2021.1/data/ip'.
+INFO: [Coretcl 2-1211] Creating project copy for archival...
+INFO: [IP_Flow 19-5107] Inferred bus interface 'axis' of definition 'xilinx.com:interface:axis:1.0' (from Xilinx Repository).
+INFO: [IP_Flow 19-5107] Inferred bus interface 's00_axi' of definition 'xilinx.com:interface:aximm:1.0' (from Xilinx Repository).
+INFO: [IP_Flow 19-5107] Inferred bus interface 'rst' of definition 'xilinx.com:signal:reset:1.0' (from Xilinx Repository).
+INFO: [IP_Flow 19-5107] Inferred bus interface 's00_axi_aresetn' of definition 'xilinx.com:signal:reset:1.0' (from Xilinx Repository).
+INFO: [IP_Flow 19-5107] Inferred bus interface 'clk' of definition 'xilinx.com:signal:clock:1.0' (from Xilinx Repository).
+INFO: [IP_Flow 19-5107] Inferred bus interface 's00_axi_aclk' of definition 'xilinx.com:signal:clock:1.0' (from Xilinx Repository).
+INFO: [IP_Flow 19-4728] Bus Interface 's00_axi_aresetn': Added interface parameter 'POLARITY' with value 'ACTIVE_LOW'.
+INFO: [IP_Flow 19-8018] Clock interface clk has no prefix in its name to identify associated interfaces. The interfaces might be inferred incorrectly. It is advised to review ASSOCIATED_BUSIF value for this interface.
+INFO: [IP_Flow 19-4728] Bus Interface 'clk': Added interface parameter 'ASSOCIATED_BUSIF' with value 'axis'.
+INFO: [IP_Flow 19-4728] Bus Interface 'clk': Added interface parameter 'ASSOCIATED_RESET' with value 'rst'.
+INFO: [IP_Flow 19-4728] Bus Interface 's00_axi_aclk': Added interface parameter 'ASSOCIATED_RESET' with value 's00_axi_aresetn'.
+WARNING: [IP_Flow 19-5661] Bus Interface 's00_axi_aclk' does not have any bus interfaces associated with it.
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [Coretcl 2-1213] Including run results for 'synth_1'
+INFO: [Coretcl 2-1213] Including run results for 'design_1_xbar_0_synth_1'
+INFO: [Coretcl 2-1213] Including run results for 'design_1_rst_ps8_0_99M_0_synth_1'
+INFO: [Coretcl 2-1213] Including run results for 'design_1_zynq_ultra_ps_e_0_0_synth_1'
+INFO: [Coretcl 2-1213] Including run results for 'design_1_axi_dma_0_0_synth_1'
+INFO: [Coretcl 2-1213] Including run results for 'design_1_clk_wiz_0_0_synth_1'
+INFO: [Coretcl 2-1213] Including run results for 'design_1_audio_pipeline_0_0_synth_1'
+INFO: [Coretcl 2-1213] Including run results for 'impl_1'
+INFO: [Coretcl 2-133] re-setting run 'design_1_xbar_0_impl_1'...
+INFO: [Coretcl 2-133] re-setting run 'design_1_rst_ps8_0_99M_0_impl_1'...
+INFO: [Coretcl 2-133] re-setting run 'design_1_zynq_ultra_ps_e_0_0_impl_1'...
+INFO: [Coretcl 2-133] re-setting run 'design_1_axi_dma_0_0_impl_1'...
+INFO: [Coretcl 2-133] re-setting run 'design_1_clk_wiz_0_0_impl_1'...
+INFO: [Coretcl 2-133] re-setting run 'design_1_audio_pipeline_0_0_impl_1'...
+INFO: [Coretcl 2-1212] Importing remotely added design sources and verilog include files (if any)...
+INFO: [filemgmt 20-334] All file(s) are already imported in fileset: 'design_1_audio_pipeline_0_0'
+INFO: [filemgmt 20-348] Importing the appropriate files for fileset: 'design_1_audio_pipeline_0_0'
+INFO: [filemgmt 20-334] All file(s) are already imported in fileset: 'design_1_axi_dma_0_0'
+INFO: [filemgmt 20-348] Importing the appropriate files for fileset: 'design_1_axi_dma_0_0'
+INFO: [filemgmt 20-334] All file(s) are already imported in fileset: 'design_1_clk_wiz_0_0'
+INFO: [filemgmt 20-348] Importing the appropriate files for fileset: 'design_1_clk_wiz_0_0'
+INFO: [filemgmt 20-334] All file(s) are already imported in fileset: 'design_1_rst_ps8_0_99M_0'
+INFO: [filemgmt 20-348] Importing the appropriate files for fileset: 'design_1_rst_ps8_0_99M_0'
+INFO: [filemgmt 20-334] All file(s) are already imported in fileset: 'design_1_xbar_0'
+INFO: [filemgmt 20-348] Importing the appropriate files for fileset: 'design_1_xbar_0'
+INFO: [filemgmt 20-334] All file(s) are already imported in fileset: 'design_1_zynq_ultra_ps_e_0_0'
+INFO: [filemgmt 20-348] Importing the appropriate files for fileset: 'design_1_zynq_ultra_ps_e_0_0'
+INFO: [filemgmt 20-348] Importing the appropriate files for fileset: 'constrs_1'
+INFO: [filemgmt 20-348] Importing the appropriate files for fileset: 'sim_1'
+INFO: [filemgmt 20-348] Importing the appropriate files for fileset: 'sources_1'
